@@ -48,14 +48,15 @@ a {
     padding: 14px;
 }
 
-.hash {
-    /* width: 40%; */
+
+/* .hash {
+    width: 40%;
     padding-right: 20px;
     padding-left: 20px;
     margin: auto;
     color: white;
     font-size: 1.25rem;
-}
+} */
 
 Style inputs input[type=text],
 select,
@@ -119,11 +120,48 @@ textarea {
     flex-wrap: wrap;
 }
 
+.bite img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hash {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blow {
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.blond {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    color: white;
+    font-size: 1.25rem;
+}
+
 @media screen and (max-width: 1199px) {
     .box {
         padding-left: -30px;
         padding-right: -10px;
     }
+}
+
+.pd-blind {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    color: white;
+    font-size: 1.25rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -172,6 +210,18 @@ textarea {
     }
     .container {
         height: auto;
+    }
+    .pd-blind {
+        font-size: 1rem;
+    }
+    .blow {
+        font-size: 1rem;
+    }
+    .bite img {
+        width: 150px;
+    }
+    .hash {
+        font-size: 1rem;
     }
 }
 
